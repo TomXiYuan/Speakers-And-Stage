@@ -1,0 +1,34 @@
+[
+  {
+    "id": "placeholder-member-1",
+    "placeholder": true,
+    "name": "[Member Name]",
+    "role": "[Committee Role]",
+    "image": "[Member photo placeholder]",
+    "funFact": "[Optional fun fact]"
+  },
+  {
+    "id": "placeholder-member-2",
+    "placeholder": true,
+    "name": "[Member Name]",
+    "role": "[Committee Role]",
+    "image": "[Member photo placeholder]",
+    "funFact": "[Optional fun fact]"
+  },
+  {
+    "id": "placeholder-member-3",
+    "placeholder": true,
+    "name": "[Member Name]",
+    "role": "[Committee Role]",
+    "image": "[Member photo placeholder]",
+    "funFact": "[Optional fun fact]"
+  },
+  {
+    "id": "placeholder-member-4",
+    "placeholder": true,
+    "name": "[Member Name]",
+    "role": "[Committee Role]",
+    "image": "[Member photo placeholder]",
+    "funFact": "[Optional fun fact]"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "mission": "The Speakers and Stage committee strives to contribute to the DUU overall mission through large event programming. Our programming consists of contracting a wide range of speakers that is representative of the student body's interests and current events. We are working to organize types of events (keynotes, panelists, small speakers) according to the needs of the campus. The most important goal of the committee is selecting and organizing events reflective of the collective student voice at Duke.",
+  "pillars": [
+    {
+      "name": "Speakers",
+      "icon": "[Icon placeholder]",
+      "description": "Help shape the voices and ideas we bring to Duke."
+    },
+    {
+      "name": "Event Planning",
+      "icon": "[Icon placeholder]",
+      "description": "Bring the details together, from first idea to showtime."
+    },
+    {
+      "name": "Promotion",
+      "icon": "[Icon placeholder]",
+      "description": "Get the word out across campus."
+    },
+    {
+      "name": "Hosting",
+      "icon": "[Icon placeholder]",
+      "description": "Welcome speakers and students to the experience."
+    }
+  ],
+  "cultureImages": [
+    "[Committee photo placeholder]",
+    "[Event planning photo placeholder]",
+    "[Behind-the-scenes photo placeholder]"
+  ]
+}

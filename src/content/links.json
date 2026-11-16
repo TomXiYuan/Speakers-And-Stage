@@ -1,0 +1,60 @@
+{
+  "navigation": [
+    {
+      "label": "Home",
+      "to": "/"
+    },
+    {
+      "label": "Events",
+      "to": "/events"
+    },
+    {
+      "label": "Past Speakers",
+      "to": "/past-speakers"
+    },
+    {
+      "label": "About Us",
+      "to": "/about"
+    },
+    {
+      "label": "Get Involved",
+      "to": "/get-involved"
+    }
+  ],
+  "social": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/duu_ss/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dukespeakersandstage/"
+    }
+  ],
+  "actions": [
+    {
+      "id": "join",
+      "title": "Join the Committee",
+      "description": "Help decide who comes to campus and bring the next event to life.",
+      "placeholder": "[Committee interest information coming soon]"
+    },
+    {
+      "id": "suggest",
+      "title": "Suggest a Speaker or Topic",
+      "description": "Whose voice would you like to hear? Help shape the conversation at Duke.",
+      "placeholder": "[Speaker suggestion information coming soon]"
+    },
+    {
+      "id": "collaborate",
+      "title": "Collaborate With Us",
+      "description": "For student organizations, departments, and partners interested in working with S&S.",
+      "placeholder": "[Collaboration information coming soon]"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "description": "Have a question for Speakers & Stage?",
+      "placeholder": "[Committee contact information coming soon]"
+    }
+  ]
+}
