@@ -1,1 +1,8 @@
-export default function GetInvolved() { return <div className="container section"><h1>Get Involved</h1></div>; }
+import links from '../content/links.json';
+import SocialLinks from '../components/SocialLinks.jsx';
+export default function GetInvolved() {
+  return <div className="container section"><div className="page-intro"><p className="eyebrow">Students help decide who comes to campus</p><h1>Get Involved</h1><p className="lead">Bring your ideas. Help build the next conversation.</p></div>
+    <nav className="jump-links" aria-label="Ways to get involved">{links.actions.map(action => <a key={action.id} href={`#${action.id}`}>{action.title} ↓</a>)}</nav>
+    <div className="action-list">{links.actions.map((action, index) => <section key={action.id} id={action.id} tabIndex="-1" className="action-card" aria-labelledby={`${action.id}-title`}><p className="eyebrow">0{index + 1}</p><div><h2 id={`${action.id}-title`}>{action.title}</h2><p>{action.description}</p></div><div><p className="placeholder-copy">{action.placeholder}</p>{action.id === 'contact' && <SocialLinks />}</div></section>)}</div>
+  </div>;
+}
