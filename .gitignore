@@ -3,3 +3,13 @@ dist/
 .DS_Store
 .env
 .env.local
+
+# IDE and R files
+.idea/
+.Rhistory
+.DS_Store
+
+# IDE and R files
+.idea/
+.Rhistory
+.DS_Store
