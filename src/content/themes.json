@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Comedy",
+    "color": "salmon"
+  },
+  {
+    "name": "Social Issues",
+    "color": "purple"
+  },
+  {
+    "name": "Sports",
+    "color": "teal"
+  },
+  {
+    "name": "Inspiring Conversations",
+    "color": "cyan"
+  }
+]
