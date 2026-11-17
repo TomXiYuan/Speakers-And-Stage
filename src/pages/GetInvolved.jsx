@@ -4,7 +4,7 @@ import SocialLinks from '../components/SocialLinks.jsx';
 
 export default function GetInvolved() {
   return (
-    <div className="container section">
+  <div className="container section get-involved-page">
       <div className="page-intro">
         <p className="eyebrow">
           Students help decide who comes to campus
@@ -14,14 +14,6 @@ export default function GetInvolved() {
           Bring your ideas. Help build the next conversation.
         </p>
       </div>
-
-      <nav className="jump-links" aria-label="Ways to get involved">
-        {links.actions.map((action) => (
-          <a key={action.id} href={`#${action.id}`}>
-            {action.title} ↓
-          </a>
-        ))}
-      </nav>
 
       <div className="action-list">
         {links.actions.map((action, index) => (

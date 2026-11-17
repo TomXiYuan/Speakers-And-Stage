@@ -1,4 +1,6 @@
 @import './styles/tokens.css';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 8rem; }
 body { margin: 0; color: var(--off-black); background: var(--off-white); font-family: var(--font-body); font-size: var(--text-body); line-height: 1.6; }
@@ -107,6 +109,260 @@ p:last-child { margin-bottom: 0; }
 .action-card:nth-child(4) { background: var(--salmon); }
 .action-card h2 { font-size: clamp(2rem, 4vw, 3rem); }
 .action-card .placeholder-copy { font-weight: 700; }
+
+
+/* =====================================
+   GET INVOLVED — MINIMAL EDITORIAL
+   ===================================== */
+
+.get-involved-page {
+  --gi-ink: #172b4d;
+  --gi-muted: #46566b;
+  --gi-radius: 24px;
+}
+
+/* Page heading */
+
+.get-involved-page .page-intro h1 {
+  font-family: "Arial Black", "Arial", sans-serif;
+  font-size: clamp(3.5rem, 8vw, 7.5rem);
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+
+  color: #172b4d;
+
+  text-shadow:
+  1px 1px 0 #B8A9D9,
+  2px 2px 0 #B8A9D9,
+  3px 3px 0 #B8A9D9,
+  4px 4px 0 #B8A9D9,
+  5px 5px 0 #B8A9D9,
+  6px 6px 0 #B8A9D9,
+  10px 12px 22px rgba(23, 43, 77, 0.12);
+}
+
+
+.get-involved-page .page-intro .eyebrow {
+  color: var(--gi-muted);
+  letter-spacing: 0.16em;
+}
+
+.get-involved-page .page-intro .lead {
+  max-width: 720px;
+  color: var(--gi-muted);
+}
+
+/* Navigation links */
+.get-involved-page .jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.get-involved-page .jump-links a {
+  padding: 0.65rem 1rem;
+  color: var(--gi-ink);
+  background: #ffffff;
+  border: 1px solid #e0e5e9;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.get-involved-page .jump-links a:hover {
+  background: #e8edf3;
+  transform: translateY(-2px);
+}
+
+.get-involved-page .jump-links a:focus-visible {
+  outline: 3px solid var(--gi-ink);
+  outline-offset: 3px;
+}
+
+/* Card layout */
+.get-involved-page .action-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.get-involved-page .action-card {
+  position: relative;
+  border: none;
+  border-top: none;
+  border-radius: var(--gi-radius);
+  box-shadow: none;
+  overflow: hidden;
+  padding: clamp(1.5rem, 3vw, 3rem);
+  color: var(--gi-ink);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+/* Remove earlier decorative inner border */
+.get-involved-page .action-card::before {
+  content: none;
+}
+
+/* Soft pastel backgrounds */
+.get-involved-page .action-card:nth-child(1) {
+  background: #e6edf4;
+}
+
+.get-involved-page .action-card:nth-child(2) {
+  background: #d8eef2;
+}
+
+.get-involved-page .action-card:nth-child(3) {
+  background: #dbeddf;
+}
+
+.get-involved-page .action-card:nth-child(4) {
+  background: #f7ddd9;
+}
+
+/* Hover */
+@media (hover: hover) {
+  .get-involved-page .action-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(23, 43, 77, 0.07);
+  }
+}
+
+/* Section numbers */
+.get-involved-page .action-card > .eyebrow {
+  display: inline-block;
+  width: fit-content;
+  margin: 0;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid rgba(23, 43, 77, 0.13);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--gi-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+/* Titles */
+.get-involved-page .action-card h2 {
+  margin: 0 0 0.85rem;
+  color: var(--gi-ink);
+  font-family: "Space Grotesk", "Arial", sans-serif;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+/* Text */
+.get-involved-page .action-card p {
+  color: var(--gi-muted);
+  line-height: 1.65;
+}
+
+.get-involved-page .action-card > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.get-involved-page .action-card > div:last-child > p {
+  margin: 0;
+}
+
+/* Buttons */
+.get-involved-page .action-card .action-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9rem 1.4rem;
+  border: 1px solid var(--gi-ink);
+  border-radius: 999px;
+  background: var(--gi-ink);
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.get-involved-page .action-card .action-link:hover {
+  transform: translateY(-2px);
+  background: transparent;
+  color: var(--gi-ink);
+}
+
+.get-involved-page .action-card .action-link:focus-visible {
+  outline: 3px solid var(--gi-ink);
+  outline-offset: 4px;
+}
+
+/* Contact */
+.get-involved-page .contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.get-involved-page .contact-details p {
+  margin: 0;
+}
+
+.get-involved-page .contact-details a {
+  color: var(--gi-ink);
+  text-underline-offset: 4px;
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    /* Mobile Get Involved title */
+  .get-involved-page .page-intro h1 {
+    font-size: clamp(3rem, 11vw, 4.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+
+    text-shadow:
+      1px 1px 0 #B8A9D9,
+      2px 2px 0 #B8A9D9,
+      3px 3px 0 #B8A9D9,
+      5px 7px 12px rgba(23, 43, 77, 0.1);
+  }
+  .get-involved-page .action-card {
+    border-radius: 18px;
+    padding: 1.5rem;
+  }
+
+  .get-involved-page .action-card h2 {
+    font-size: 2rem;
+  }
+
+  .get-involved-page .jump-links a {
+    font-size: 0.82rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .get-involved-page .action-card,
+  .get-involved-page .action-card .action-link,
+  .get-involved-page .jump-links a {
+    transition: none;
+  }
+
+  .get-involved-page .action-card:hover,
+  .get-involved-page .action-card .action-link:hover,
+  .get-involved-page .jump-links a:hover {
+    transform: none;
+  }
+}
+
+
 .jump-links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-bottom: 2rem; font-weight: 700; }
 .empty-events { padding: 2rem; border: 2px solid var(--navy); }
 @media (min-width: 600px) {
@@ -132,3 +388,4 @@ p:last-child { margin-bottom: 0; }
   .hero-inner { min-height: 650px; gap: 4rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+

@@ -40,15 +40,15 @@
     "details": "Speakers & Stage is open to all Duke students! As a committee member, you'll help select speakers, plan events, promote programs, and possibly even host an event. Bring your ideas and help create memorable experiences for the Duke community.",
     "buttonText": "Join the Committee",
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSdTJ_-J4On_hz6zgyTVRn38LV_9e8MoZVoLpR2LsmZaEUKk5g/viewform"
-  },
-  {
-    "id": "suggest",
-    "title": "Suggest a Speaker or Topic",
-    "description": "Whose voice would you like to hear? Help shape the conversation at Duke.",
-    "details": "Have a speaker in mind or a topic you'd love to explore? Share your ideas with us and help shape future Speakers & Stage events.",
-    "buttonText": "Suggest a Speaker",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFp3X8o2w9glQGMANAsK72SL17XlWDLNtDUytKTzI0asIXcw/viewform"
-  },
+  }, 
+{
+  "id": "suggest",
+  "title": "Suggest a Speaker",
+  "description": "Dream big. Your next favorite voice might be one suggestion away!",
+  "details": "Have a speaker in mind or a topic you'd love to explore? Whether it's a comedian, athlete, artist, activist, or someone with a story worth sharing, tell us who you'd love to see at Duke. Help shape the conversations we bring to campus.",
+  "buttonText": "Suggest a Speaker",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFp3X8o2w9glQGMANAsK72SL17XlWDLNtDUytKTzI0asIXcw/viewform"
+},
   {
     "id": "collaborate",
     "title": "Collaborate With Us",
