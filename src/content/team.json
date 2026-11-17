@@ -1,34 +1,47 @@
 [
   {
-    "id": "placeholder-member-1",
-    "placeholder": true,
-    "name": "[Member Name]",
-    "role": "[Committee Role]",
-    "image": "[Member photo placeholder]",
-    "funFact": "[Optional fun fact]"
+    "id": "ekeria-iboaya",
+    "name": "Ekeria Iboaya",
+    "role": "President",
+    "classYear": "Class of 2029",
+    "major": "Public Policy & Global Health",
+    "image": "/images/team/ekeria-iboaya.jpg",
+    "quote": "My favorite part of DUU is collaborating with other committees to create events that bring excitement to the Duke community."
   },
   {
-    "id": "placeholder-member-2",
-    "placeholder": true,
-    "name": "[Member Name]",
-    "role": "[Committee Role]",
-    "image": "[Member photo placeholder]",
-    "funFact": "[Optional fun fact]"
+    "id": "raeleigh-arimah",
+    "name": "Raeleigh Arimah",
+    "role": "Vice President",
+    "classYear": "Class of 2029",
+    "major": "Public Policy",
+    "image": "/images/team/raeleigh-arimah.jpg",
+    "quote": "My favorite part of DUU is being able to create events that create excitement in the community."
   },
   {
-    "id": "placeholder-member-3",
-    "placeholder": true,
-    "name": "[Member Name]",
-    "role": "[Committee Role]",
-    "image": "[Member photo placeholder]",
-    "funFact": "[Optional fun fact]"
+    "id": "cynthia-lei",
+    "name": "Cynthia Lei",
+    "role": "Treasurer",
+    "classYear": "Class of 2030",
+    "major": "Biology/JAM",
+    "image": "/images/team/cynthia-lei.jpg",
+    "quote": "I joined Speakers and Stage because I wanted to get involved on campus and bring cool people to Duke for students to hear and learn from."
   },
   {
-    "id": "placeholder-member-4",
-    "placeholder": true,
-    "name": "[Member Name]",
-    "role": "[Committee Role]",
-    "image": "[Member photo placeholder]",
-    "funFact": "[Optional fun fact]"
+    "id": "kamryn-martin",
+    "name": "Kamryn Martin",
+    "role": "Freshman Year Intern (FIP)",
+    "classYear": "Class of 2030",
+    "major": "Public Policy",
+    "image": "/images/team/kamryn-martin.jpg",
+    "quote": "DUU lets me get involved with planning big on campus events and gives me the opportunity to further my organization and leadership skills!"
+  },
+  {
+    "id": "noah-bunleuth",
+    "name": "Noah Bunleuth",
+    "role": "Head of Marketing",
+    "classYear": "Class of 2028",
+    "major": "Public Policy",
+    "image": "/images/team/noah-bunleuth.jpg",
+    "quote": "I'm involved with DUU to help put on fun events that students can decompress at! My favorite part of the organization has been choosing speakers to come to campus."
   }
 ]

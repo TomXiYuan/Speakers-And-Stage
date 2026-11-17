@@ -1,30 +1,63 @@
 {
   "mission": "The Speakers and Stage committee strives to contribute to the DUU overall mission through large event programming. Our programming consists of contracting a wide range of speakers that is representative of the student body's interests and current events. We are working to organize types of events (keynotes, panelists, small speakers) according to the needs of the campus. The most important goal of the committee is selecting and organizing events reflective of the collective student voice at Duke.",
+  "duu": {
+    "heading": "Part of Duke University Union",
+    "text": [
+      "Duke University Union (DUU) is Duke’s largest student organization and its student-led hub for events, programming, arts, and media.",
+      "Through 18 committees, DUU produces more than 200 events and media projects each year—from weekly Jazz@ the Mary Lou and Duke Student Broadcasting collaborations with Duke Basketball to the LDOC concert.",
+      "Our mission is simple: to provide diverse, community-centered, and creative programming and media that support Duke’s social, educational, and professional goals."
+    ],
+    "stats": [
+      {
+        "value": "18",
+        "label": "DUU committees"
+      },
+      {
+        "value": "200+",
+        "label": "Events and media projects each year"
+      },
+      {
+        "value": "#1",
+        "label": "Largest student organization at Duke"
+      }
+    ]
+  },
+  "whatWeDo": "Speakers & Stage seeks to present high quality speaker events across all topics, styles, and genres. These topics have included comedy, sports, and activism, while previous speakers have included Cody Ko, Pete Davidson, Sue Bird, and Nikki Glaser. The committee is open to all students. Members of the committee work on selecting speakers, event planning, marketing, and can possibly even host an event!",
   "pillars": [
     {
       "name": "Speakers",
-      "icon": "[Icon placeholder]",
-      "description": "Help shape the voices and ideas we bring to Duke."
+      "description": "Choose the speakers we bring to campus, across comedy, sports, activism, and more."
     },
     {
       "name": "Event Planning",
-      "icon": "[Icon placeholder]",
       "description": "Bring the details together, from first idea to showtime."
     },
     {
       "name": "Promotion",
-      "icon": "[Icon placeholder]",
-      "description": "Get the word out across campus."
+      "description": "Market each event and get the word out across campus."
     },
     {
       "name": "Hosting",
-      "icon": "[Icon placeholder]",
-      "description": "Welcome speakers and students to the experience."
+      "description": "Welcome speakers and students, and maybe even host an event yourself."
     }
   ],
   "cultureImages": [
-    "[Committee photo placeholder]",
-    "[Event planning photo placeholder]",
-    "[Behind-the-scenes photo placeholder]"
-  ]
+    {
+      "src": "/images/culture/stage-lineup.jpg",
+      "alt": "Illusionist Chris Jones on stage in Reynolds Theater with a row of student volunteers seated behind him",
+      "caption": "Student volunteers on stage with Chris Jones in Reynolds Theater."
+    },
+    {
+      "src": "/images/culture/audience-moment.jpg",
+      "alt": "Chris Jones leaning into the audience with a microphone as students react",
+      "caption": "Chris Jones takes the show into the audience."
+    },
+    {
+      "src": "/images/culture/show-from-the-floor.jpg",
+      "alt": "Wide view of the stage during Chris Jones’s hypnotist show, with two students standing in front of the stage",
+      "caption": "Volunteers line up for Chris Jones’s hypnotist show."
+    }
+  ],
+  "cultureIntro": "Behind every show is a committee of students. We pick the speakers, plan the details, and are in the room when the lights come up and the audience joins in.",
+  "cultureCredit": "Photos: DUU Speakers & Stage (@duu_ss). Audience photo by Madison Mikayelyan."
 }

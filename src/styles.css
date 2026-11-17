@@ -94,12 +94,39 @@ p:last-child { margin-bottom: 0; }
 .mission-block { background: var(--navy); color: var(--off-white); }
 .mission-text { font-size: var(--text-lead); max-width: 57rem; line-height: 1.8; }
 .pillar { border-top: 3px solid var(--navy); padding-top: 1rem; }
+.pillar-icon { position: relative; display: grid; place-items: center; width: 100%; min-height: 140px; margin-bottom: 1.5rem; background: var(--navy); color: var(--off-white); overflow: hidden; }
+.pillar-icon::after { content: ''; position: absolute; right: -28px; bottom: -28px; width: 110px; height: 110px; border-radius: 50%; border: 2px solid currentColor; opacity: .25; }
+.pillar-icon svg { position: relative; z-index: 1; width: 52px; height: 52px; padding: 16px; box-sizing: content-box; border: 2px solid currentColor; border-radius: 50%; }
+.pillar-step { position: absolute; top: .75rem; left: 1rem; font-family: var(--font-display); font-size: 1.5rem; letter-spacing: .02em; opacity: .85; }
+.pillar:nth-child(2) .pillar-icon { background: var(--purple); }
+.pillar:nth-child(3) .pillar-icon { background: var(--teal); color: var(--navy); }
+.pillar:nth-child(4) .pillar-icon { background: var(--salmon); color: var(--navy); }
+.pillar:nth-child(2) { border-top-color: var(--purple); }
+.pillar:nth-child(3) { border-top-color: var(--teal); }
+.pillar:nth-child(4) { border-top-color: var(--salmon); }
 .icon-placeholder { display: inline-grid; place-items: center; width: 100%; min-height: 90px; margin-bottom: 1.5rem; background: var(--green); font-size: var(--text-small); }
 .team-card h3 { margin: 1rem 0 .5rem; }
 .team-card .photo-placeholder { aspect-ratio: 1; }
 .team-card p { margin-bottom: .35rem; }
+.team-photo { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border: 1px solid var(--navy); }
+.team-role { margin-top: 1rem; font-size: var(--text-small); font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: var(--purple); }
+.team-card .team-role + h3 { margin-top: .25rem; }
+.team-details { font-size: var(--text-small); }
+.team-quote { margin: 1rem 0 0; padding-left: 1rem; border-left: 3px solid var(--teal); font-style: italic; }
+.duu-section { background: var(--cyan); color: var(--off-black); }
+.duu-layout { display: grid; gap: 2.5rem; }
+.duu-section .lead + .lead { margin-top: 1rem; }
+.stat-list { display: grid; gap: 1rem; margin: 0; }
+.stat { display: flex; flex-direction: column-reverse; padding: 1.25rem 1.5rem; background: var(--navy); color: var(--off-white); }
+.stat dd { margin: 0; font-family: var(--font-display); font-size: var(--text-heading); line-height: 1; }
+.stat dt { font-weight: 700; margin-top: .5rem; }
+.what-we-do-intro { margin-bottom: 2.5rem; }
 .culture-section { background: var(--salmon); }
 .culture-strip { margin-top: 2rem; }
+.culture-photo { margin: 0; }
+.culture-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1px solid var(--navy); }
+.culture-photo figcaption { margin-top: .6rem; font-size: var(--text-small); font-weight: 700; color: var(--off-black); }
+.photo-credit { margin-top: 1.25rem; font-size: var(--text-small); color: var(--off-black); }
 .action-list { display: grid; gap: 1.5rem; }
 .action-card { display: grid; gap: 1rem; padding: 2rem 1.5rem; border: 1px solid var(--navy); border-top: 6px solid var(--navy); scroll-margin-top: 8rem; }
 .action-card:nth-child(2) { background: var(--cyan); }
@@ -124,11 +151,13 @@ p:last-child { margin-bottom: 0; }
   .header-suggest { margin-left: 0; }
   .card-grid, .culture-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .closing-grid, .feature-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .duu-layout { grid-template-columns: 1.6fr 1fr; align-items: center; }
   .footer-inner .social-links { margin-left: auto; }
   .action-card { grid-template-columns: 3rem 1fr 1fr; gap: 2rem; align-items: start; padding: 2.5rem; }
 }
 @media (min-width: 1000px) {
-  .theme-grid, .pillar-grid, .team-grid, .speaker-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .theme-grid, .pillar-grid, .speaker-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .team-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .hero-inner { min-height: 650px; gap: 4rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
