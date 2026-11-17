@@ -31,30 +31,41 @@
       "url": "https://www.facebook.com/dukespeakersandstage/"
     }
   ],
-  "actions": [
-    {
-      "id": "join",
-      "title": "Join the Committee",
-      "description": "Help decide who comes to campus and bring the next event to life.",
-      "placeholder": "[Committee interest information coming soon]"
-    },
-    {
-      "id": "suggest",
-      "title": "Suggest a Speaker or Topic",
-      "description": "Whose voice would you like to hear? Help shape the conversation at Duke.",
-      "placeholder": "[Speaker suggestion information coming soon]"
-    },
-    {
-      "id": "collaborate",
-      "title": "Collaborate With Us",
-      "description": "For student organizations, departments, and partners interested in working with S&S.",
-      "placeholder": "[Collaboration information coming soon]"
-    },
-    {
-      "id": "contact",
-      "title": "Contact",
-      "description": "Have a question for Speakers & Stage?",
-      "placeholder": "[Committee contact information coming soon]"
-    }
-  ]
+  
+"actions": [
+  {
+    "id": "join",
+    "title": "Join the Committee",
+    "description": "Help decide who comes to campus and bring the next event to life.",
+    "details": "Speakers & Stage is open to all Duke students! As a committee member, you'll help select speakers, plan events, promote programs, and possibly even host an event. Bring your ideas and help create memorable experiences for the Duke community.",
+    "buttonText": "Join the Committee",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdTJ_-J4On_hz6zgyTVRn38LV_9e8MoZVoLpR2LsmZaEUKk5g/viewform"
+  },
+  {
+    "id": "suggest",
+    "title": "Suggest a Speaker or Topic",
+    "description": "Whose voice would you like to hear? Help shape the conversation at Duke.",
+    "details": "Have a speaker in mind or a topic you'd love to explore? Share your ideas with us and help shape future Speakers & Stage events.",
+    "buttonText": "Suggest a Speaker",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFp3X8o2w9glQGMANAsK72SL17XlWDLNtDUytKTzI0asIXcw/viewform"
+  },
+  {
+    "id": "collaborate",
+    "title": "Collaborate With Us",
+    "description": "For student organizations, departments, and partners interested in working with S&S.",
+    "details": "Interested in bringing an event to campus together? We welcome collaborations with student organizations, academic departments, and campus partners to create meaningful and engaging programs.",
+    "buttonText": "Propose a Collaboration",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLScQ-rwjE9rIwFBCHH7Ng6Oj8p-d-P34lgY5NZPP1i9uz6GUZw/viewform"
+  },
+  {
+    "id": "contact",
+    "title": "Contact",
+    "description": "Have a question for Speakers & Stage?",
+    "details": "We'd love to hear from you! Reach out with questions, ideas, or inquiries about our events and committee.",
+    "contactName": "Ekeria Iboaya — Speakers & Stage Chair",
+    "email": "duu-ss@duke.edu",
+    "chairEmail": "ekeria.iboaya@duke.edu"
+  }
+]
+
 }
