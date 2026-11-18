@@ -421,3 +421,74 @@ p:last-child { margin-bottom: 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
+
+/* =====================================
+   HOME — FULL BACKGROUND HERO
+   ===================================== */
+
+
+.hero.hero-with-background {
+  position: relative;
+  overflow: hidden;
+  min-height: 740px;
+
+  background-color: #11264a;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      #11264a 0%,
+      rgba(17, 38, 74, 0.92) 28%,
+      rgba(17, 38, 74, 0.45) 48%,
+      rgba(17, 38, 74, 0.05) 70%,
+      transparent 100%
+    ),
+    url('/images/mic-home.avif');
+
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+/* Hero photo positioned to the right */
+
+.hero.hero-with-background {
+  background-image: none;
+  isolation: isolate;
+}
+
+.hero.hero-with-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+
+  background-image: url('/images/mic-home.avif');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(100% + 300px) center;
+
+  mask-image: linear-gradient(
+  to right,
+  transparent 0%,
+  transparent 25%,
+  black 90%,
+  black 100%
+);
+}
+
+.hero.hero-with-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background: linear-gradient(
+    90deg,
+    #11264a 0%,
+    rgba(17, 38, 74, 0.98) 25%,
+    rgba(17, 38, 74, 0.68) 48%,
+    rgba(17, 38, 74, 0.04) 80%
+  );
+  pointer-events: none;
+}
